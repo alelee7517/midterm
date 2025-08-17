@@ -45,4 +45,32 @@ nav ul li a:hover {
   background-color: #555;
 }
 
-  
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table caption {
+  caption-side: top;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 12px;
+  text-align: left;
+}
+
+thead th {
+  background-color: #444;
+  color: white;
+}
+
+tfoot td {
+  text-align: center;
+  font-style:italic;
+  border-top: 2px solid #ccc;
+}
